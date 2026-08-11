@@ -1,0 +1,75 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+    string name, section;
+    char ylevel, status;
+    bool repeat = true;
+
+    cout << "ENTER YOUR NAME: ";
+    getline(cin, name);
+
+    cout << "\nENTER YOUR SECTION: ";
+    getline(cin, section);
+
+    while (repeat) {
+
+        cout << "ENTER YOUR GRADE LEVEL: ";
+        cin >> ylevel;
+
+        if (ylevel == 'S' || ylevel == 's') {
+            cout << "STOP!!!\n";
+            repeat = false;
+            break;
+        }
+
+        cout << "ENTER YOUR STATUS: ";
+        cin >> status;
+
+        switch (ylevel) {
+
+            case '1':
+                cout << "you are FIRST YEAR\n";
+                break;
+
+            case '2':
+                cout << "you are SECOND YEAR\n";
+                break;
+
+            case '3':
+                cout << "you are THIRD YEAR\n";
+                break;
+
+            case '4':
+                cout << "you are FOURTH YEAR\n";
+                break;
+
+            default:
+                cout << "INVALID GRADE LEVEL\n";
+                break;
+        }
+
+        cout << "and ";
+
+        switch (status) {
+
+            case 'R':
+            case 'r':
+                cout << "you are REGULAR\n";
+                break;
+
+            case 'I':
+            case 'i':
+                cout << "you are IRREGULAR\n";
+                break;
+
+            default:
+                cout << "INVALID STATUS\n";
+                break;
+        }
+    }
+
+    return 0;
+}
