@@ -1,0 +1,109 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int num, ctr, trans, sum = 0;
+    double average;
+
+    cout << " *****************************************";
+    cout << "\n * Name:                                 *";
+    cout << "\n * Section:                              *";
+    cout << "\n *****************************************";
+
+    cout << "\n\n Enter a number: ";
+    cin >> num;
+
+    cout << "\n =========================Transaction=========================";
+    cout << "\n 1. Display ascending order from 1 to " << num << " using do while";
+    cout << "\n 2. Display descending order from " << num << " to 1 using while";
+    cout << "\n 3. Display all numbers divisible by 4 from 4 to " << num << " using for";
+    cout << "\n 4. Display the sum of 1 to " << num << " using do while";
+    cout << "\n 5. Display the average of 1 to " << num << " using do while";
+
+    do {
+
+        cout << "\n\n Enter transaction: ";
+        cin >> trans;
+
+        switch (trans) {
+
+            
+            case 1:
+                ctr = 1;
+
+                do {
+                    cout << ctr << " ";
+                    ctr++;
+                } while (ctr <= num);
+
+                break;
+
+
+            
+            case 2:
+                ctr = num;
+
+                while (ctr >= 1) {
+                    cout << ctr << " ";
+                    ctr--;
+                }
+
+                break;
+
+
+            
+            case 3:
+
+                for (ctr = 4; ctr <= num; ctr++) {
+
+                    if (ctr % 4 == 0) {
+                        cout << ctr << " ";
+                    }
+
+                }
+
+                break;
+
+
+        
+            case 4:
+                ctr = 1;
+                sum = 0;
+
+                do {
+                    sum = sum + ctr;
+                    ctr++;
+                } while (ctr <= num);
+
+                cout << "The sum is " << sum;
+
+                break;
+
+
+  
+            case 5:
+                ctr = 1;
+                sum = 0;
+
+                do {
+                    sum = sum + ctr;
+                    ctr++;
+                } while (ctr <= num);
+
+                average = (double)sum / num;
+
+                cout << "The average is " << average;
+
+                break;
+
+
+            default:
+                cout << "Invalid";
+
+        } 
+
+    } while (trans <= 5); 
+
+    return 0;
+} // end of main
