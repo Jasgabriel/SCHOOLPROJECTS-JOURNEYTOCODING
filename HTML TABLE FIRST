@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<title>COFFEE SHOP MENU</title>
+<body style="background-color:#e6e2dc">
+<h1 style="text-align:center" >Macunat's Brookside Coffee Shop</h1>
+<h3 style="text-align:center" >Freshly Brewed Coffee . Delicious Pastries . Refreshing
+Drinks</h3>
+<table border="2" cellpadding="" align="center" width="900" >
+<caption>Coffee Shop Menu</caption>
+<tr>
+<th><h3>Category</h3></th>
+<th><h3>Menu Item</h3></th>
+<th><h3>Size</h3></th>
+<th><h3 style="color:red">Price (₱)</h3></th>
+</tr>
+<tr>
+<th><p>Hot Coffee</p></th>
+<th><p>Americano</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">90.00</p></th>
+</tr>
+<tr>
+<th><p>Hot Coffee</p></th>
+<th><p>Macunat Special</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">120.00</p></th>
+</tr>
+<tr>
+<th><p>Hot Coffee</p></th>
+<th><p>Cappuccino</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">90.00</p></th>
+</tr>
+<tr>
+<th><p>Hot Coffee</p></th>
+<th><p>Caramel Latte</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">150.00</p></th>
+</tr>
+<tr>
+<th><p>Iced Coffee</p></th>
+<th><p>Iced Americano</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">170.00</p></th>
+</tr>
+<tr>
+<th><p>Iced Coffee</p></th>
+<th><p>Kennard's Favorite Iced Mocha</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">180.00</p></th>
+</tr>
+<tr>
+<th><p>Iced Coffee</p></th>
+<th><p>Gian's Chilly Vanilla Cold Brew</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">100.00</p></th>
+</tr>
+<tr>
+<th><p>Non-Coffee</p></th>
+<th><p>Ace's Warm Welcome Hot Chocolate</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">99.00</p></th>
+</tr>
+<tr>
+<th><p>Non-Coffee</p></th>
+<th><p>Meako's Sweet Matcha Latter</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">135.00</p></th>
+</tr>
+<tr>
+<th><p>Pastries</p></th>
+<th><p>Egg and Cheese Croissant</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">85.00</p></th>
+</tr>
+<tr>
+<th><p>Pastries</p></th>
+<th><p>Blueberry Cheesecake Muffin</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">95.00</p></th>
+</tr>
+<tr>
+<th><p>Pastries</p></th>
+<th><p>Brookside's All Time Chocolate Cake</p></th>
+<th><p>Single</h5></p>
+<th><p style="color:red">120.00</p></th>
+</tr>
+</table>
+<p style="text-align:center"><b>Brew Haven Coffee Shop<b></p>
+<p style="text-align:center">Open Daily | 8:00 AM - 10:00 PM</p>
+</body>
+</html>
