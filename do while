@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int num;
+    int ctr = 1;
+    int sum = 0;
+    double average;
+    
+    cout <<"_____________________________________________________________________________\n";
+    cout <<"                          Jash Gabriel O Macunat\n";
+    cout <<"                        BSCYBS || CYB11S1 || ITE 001\n";
+    cout <<"_____________________________________________________________________________\n";
+
+    do {
+
+        cout << "\nEnter a number: ";
+        cin >> num;
+
+        sum = sum + num;
+
+        ctr++;
+
+    } while (ctr <= 10);
+
+    average = sum / 10.0;
+
+    cout << "\nThe average of all numbers = " << average << endl;
+
+    return 0;
+}
