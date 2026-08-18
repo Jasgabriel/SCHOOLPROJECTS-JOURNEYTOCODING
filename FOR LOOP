@@ -1,0 +1,46 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int num;
+    int sum4 = 0;
+    int sum7 = 0;
+    int sum8 = 0;
+
+    cout <<"_____________________________________________________________________________\n";
+    cout <<"                          Jash Gabriel O Macunat\n";
+    cout <<"                        BSCYBS || CYB11S1 || ITE 001\n";
+    cout <<"_____________________________________________________________________________\n";
+    
+
+    for (int ctr = 1; ctr <= 8; ctr++) {
+
+        cout << "\nEnter a number: ";
+        cin >> num;
+
+        if (num % 4 == 0) {
+            sum4 = sum4 + num;
+        }
+
+        if (num % 7 == 0) {
+            sum7 = sum7 + num;
+        }
+
+        if (num % 8 == 0) {
+            sum8 = sum8 + num;
+        }
+    }
+
+    cout << "\nThe sum of all input numbers divisible by 4 is "
+         << sum4 << endl;
+
+    cout << "The sum of all input numbers divisible by 7 is "
+         << sum7 << endl;
+
+    cout << "The sum of all input numbers divisible by 8 is "
+         << sum8 << endl;
+
+    return 0;
+}
