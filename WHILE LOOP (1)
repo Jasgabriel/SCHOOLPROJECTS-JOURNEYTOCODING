@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int num;
+    int product = 1;
+    int sum = 0;
+    int ctr = 1;
+    
+    cout <<"_____________________________________________________________________________\n";
+    cout <<"                          Jash Gabriel O Macunat\n";
+    cout <<"                        BSCYBS || CYB11S1 || ITE 001\n";
+    cout <<"_____________________________________________________________________________\n";
+    
+    while(ctr <= 4){
+        cout << "GIVE 4 NUMBER:";
+        cin >> num;
+        
+        if(num % 2 !=0){
+            product = product * num;
+            
+        }else{ 
+            sum = sum + num;
+        }
+        
+        ctr++;
+    }
+    cout << "\nThe product of an odd input number is: " << product;
+    cout << "\nThe product of an odd input number is: " << sum;
+    
+}
